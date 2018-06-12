@@ -9,7 +9,7 @@ Python HTTPServer with CloudFlare support
 - TLS/SSL
 
 #### Run:
-To run as Shell/Bash script: `bash httpyd.sh` (or +x and `./httpyd.sh`)
+To run as Shell/Bash script: `bash httpyd.sh` (or `./httpyd.sh`)
 It will both print PID to stdout and write it to `/tmp/httpyd.pid`
 
 To run using Python: `python -x httpyd.sh`
