@@ -15,6 +15,10 @@ It will both print PID to stdout and write it to `/tmp/httpyd.pid`
 To run using Python: `python -x httpyd.sh`
 (first line in script is a here-doc wrapper)
 
+### Stop:
+
+`pkill -SIGTERM -F /tmp/httpyd.pid`
+
 #### Options:
 Options are set inside script: [0/1] to disable/enable
 ```
